@@ -2,4 +2,4 @@
 встановив зловред (https://github.com/M4sc3r4n0/Evil-Droid),створив apk(android/meterpreter_reverse_tcp) 
 попередньо підняв apache і кінув apk в html
 на kali вибрав тип exploit multi/handler і run
-скачав з телефона apk файл,запустив,дав дозвіл на все і успішно підключився
+скачав на телефоні apk файл з браузера,запустив,дав дозвіл на все і успішно підключився
