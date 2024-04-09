@@ -1,0 +1,3 @@
+жертва Windows 10 pro
+1) Відключив захист в реальному часі,зайшов в політику локальної групи (gpedit.msc) і по інструкції (https://www.moyo.ua/ua/news/kak_otklyuchit_zashchitnik_windows_10_sredstvami_os_i_2_utilitkami_kakoy_antivirus_luchshe.html)
+відключив сам Windows Defender
